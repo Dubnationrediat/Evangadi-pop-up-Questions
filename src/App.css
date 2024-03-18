@@ -1,0 +1,14 @@
+.logoAkafi img{
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.logoAkafi{
+    margin: 40px;
+}
+.viewH{
+    display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}

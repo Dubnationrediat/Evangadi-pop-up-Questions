@@ -17,11 +17,11 @@ function AccordionComponent({Title,quesDir,ansDir}) {
             <div className='justify-content-around'>
 
               <Button className='m-2'  variant="info" >
-<a href={quesDir} >Question Download</a>
+<a href={quesDir} target="_blank" >Question Download</a>
               
                   </Button>
                   <Button className='m-2'  variant="warning" >
-<a href={ansDir}> Solution Download</a>
+<a href={ansDir} target="_blank"> Solution Download</a>
 
               </Button>
             </div>

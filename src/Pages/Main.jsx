@@ -3,11 +3,12 @@ import AccordionComponent from '../../src/Accordion.jsx';
 import {Data} from '../Resource/Resource.js'
 import {slideInLeft} from 'react-animations';
 // import Radium, {StyleRoot} from 'radium';
-import Radium , {StyleRoot} from 'radium'
+import Radium from 'radium' 
 import evangadiImg from '../Resource/eva_new.png'
 import evangadiVideo from '../Resource/EVANGADI.mp4'
 import './Main.css'
 function Main() {
+ 
     const videoRef = useRef(null);
 
     useEffect(() => {
@@ -37,7 +38,7 @@ function Main() {
     }
     </div>
     <div>
-    <StyleRoot>
+    <Radium.StyleRoot>
     <div  className="logoAkafi" style={styles.bounce}>
     <video ref={videoRef} width={'100%'} height={'500px'}  autoPlay muted loop>
       <source src={evangadiVideo} type="video/mp4" />
@@ -47,7 +48,7 @@ function Main() {
      
     </div>
     </div>
-  </StyleRoot>
+  </Radium.StyleRoot>
     </div>
     
     </div>

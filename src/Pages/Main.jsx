@@ -3,7 +3,7 @@ import AccordionComponent from '../../src/Accordion.jsx';
 import {Data} from '../Resource/Resource.js'
 import {slideInLeft} from 'react-animations';
 // import Radium, {StyleRoot} from 'radium';
-import Radium from 'radium' 
+// import Radium from 'radium' 
 import evangadiImg from '../Resource/eva_new.png'
 import evangadiVideo from '../Resource/EVANGADI.mp4'
 import './Main.css'
@@ -18,12 +18,12 @@ function Main() {
         console.error('Autoplay was prevented:', error);
       });
     }, []);
-    const styles = {
-      bounce: {
-        animation: 'x 1s',
-        animationName: Radium.keyframes(slideInLeft, 'slideInLeft')
-      }
-    }
+    // const styles = {
+    //   bounce: {
+    //     animation: 'x 1s',
+    //     animationName: Radium.keyframes(slideInLeft, 'slideInLeft')
+    //   }
+    // }
   return (
     <div className='d-md-flex phaseAkafi'>
     <div className='akafi'>
@@ -38,8 +38,9 @@ function Main() {
     }
     </div>
     <div>
-    <Radium.StyleRoot>
-    <div  className="logoAkafi" style={styles.bounce}>
+    {/* <Radium.StyleRoot> */}
+    {/* <div  className="logoAkafi" style={styles.bounce}> */}
+    <div  className="logoAkafi" >
     <video ref={videoRef} width={'100%'} height={'500px'}  autoPlay muted loop>
       <source src={evangadiVideo} type="video/mp4" />
     </video>
@@ -48,7 +49,7 @@ function Main() {
      
     </div>
     </div>
-  </Radium.StyleRoot>
+  {/* </Radium.StyleRoot> */}
     </div>
     
     </div>

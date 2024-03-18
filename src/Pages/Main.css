@@ -1,6 +1,7 @@
 .phaseAkafi{
     flex: 1;
     margin: 20px;
+ background-image: url('../Images/evangadi-backgroup.svg');
 }
 
 .note{

@@ -4,7 +4,7 @@ import p1w2 from '../Bonous_Questions_new/phase_one/Week_2_HTML_week/PDF/Questio
 import p1w3 from '../Bonous_Questions_new/phase_one/Week_3_CSS_week/PDF/Questions.pdf'
 import p1w4 from '../Bonous_Questions_new/phase_one/Week_4_Rebulding_Apple_page/Question.zip'
 import p1w5 from '../Bonous_Questions_new/phase_one/Week_5_Responsive_website_development_week_(Media_Queries)/PDF/Questions.pdf'
-import p1w6 from '../Bonous_Questions_new/phase_one/Week_6_Bootstrap_week/PDF/Questions.pdf'
+import p1w6 from '../Bonous_Questions_new/phase_one/Week_6_Bootstrap_week/question.zip'
 import p1w7 from '../Bonous_Questions_new/phase_one/Week_7_Project_week_(Building_and_launching_your_own_website)/PDF/Questions.pdf'
 // phase two questions
 import p2w1 from '../Bonous_Questions_new/phase_two/Week_1_Introduction_to_programming_basics/PDF/Question.pdf'
